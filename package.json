@@ -1,6 +1,6 @@
 {
   "name": "react-native-notifications-badge-extensions",
-  "version": "1.1.17.1",
+  "version": "1.0.1",
   "description": "Includes badge extensions forked from the react-native-notifications package.",
   "author": "Lucas Gladding <l.gladding@vehikl.com>",
   "license": "MIT",
