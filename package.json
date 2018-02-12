@@ -1,8 +1,8 @@
 {
-  "name": "react-native-notifications",
+  "name": "react-native-notifications-badge-extensions",
   "version": "1.1.17",
-  "description": "Advanced Push Notifications (Silent, interactive notifications) for iOS & Android",
-  "author": "Lidan Hifi <lidan.hifi@gmail.com>",
+  "description": "Includes badge extensions forked from the react-native-notifications package.",
+  "author": "Lucas Gladding <l.gladding@vehikl.com>",
   "license": "MIT",
   "keywords": [
     "react-component",
@@ -50,11 +50,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wix/react-native-notifications.git"
+    "url": "https://github.com/vehikl/react-native-notifications.git"
   },
-  "homepage": "https://github.com/wix/react-native-notifications",
+  "homepage": "https://github.com/vehikl/react-native-notifications",
   "bugs": {
-    "url": "https://github.com/wix/react-native-notifications/issues"
+    "url": "https://github.com/vehikl/react-native-notifications/issues"
   },
   "babel": {
     "presets": [
