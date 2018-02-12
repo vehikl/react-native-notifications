@@ -536,7 +536,7 @@ RCT_EXPORT_METHOD(registerPushKit)
 RCT_EXPORT_METHOD(getBadgesCount:(RCTResponseSenderBlock)callback)
 {
     NSInteger count = [UIApplication sharedApplication].applicationIconBadgeNumber;
-    callback(@(count));
+    callback(@[ [NSNumber numberWithInteger:count] ]);
 }
 
 RCT_EXPORT_METHOD(setBadgesCount:(int)count)
