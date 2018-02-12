@@ -535,7 +535,7 @@ RCT_EXPORT_METHOD(registerPushKit)
 
 RCT_EXPORT_METHOD(getBadgesCount)
 {
-    [[UIApplication sharedApplication] applicationIconBadgeNumber];
+    return [[UIApplication sharedApplication] applicationIconBadgeNumber];
 }
 
 RCT_EXPORT_METHOD(setBadgesCount:(int)count)
