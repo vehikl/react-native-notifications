@@ -160,6 +160,10 @@ export default class NotificationsIOS {
     _actionHandlers.clear();
   }
 
+  static getBadgesCount() {
+    NativeRNNotifications.getBadgesCount();
+  }
+
   static setBadgesCount(count: number) {
     NativeRNNotifications.setBadgesCount(count);
   }
