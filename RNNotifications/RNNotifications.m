@@ -533,9 +533,10 @@ RCT_EXPORT_METHOD(registerPushKit)
     [RNNotifications registerPushKit];
 }
 
-RCT_EXPORT_METHOD(getBadgesCount)
+RCT_EXPORT_METHOD(getBadgesCount:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject)
 {
-    return [[UIApplication sharedApplication] applicationIconBadgeNumber];
+    NSInteger count = [[UIApplication sharedApplication] applicationIconBadgeNumber];
+    resolve(@(count));
 }
 
 RCT_EXPORT_METHOD(setBadgesCount:(int)count)
