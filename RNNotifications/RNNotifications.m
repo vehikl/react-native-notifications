@@ -533,6 +533,11 @@ RCT_EXPORT_METHOD(registerPushKit)
     [RNNotifications registerPushKit];
 }
 
+RCT_EXPORT_METHOD(getBadgesCount)
+{
+    [[UIApplication sharedApplication] applicationIconBadgeNumber];
+}
+
 RCT_EXPORT_METHOD(setBadgesCount:(int)count)
 {
     [[UIApplication sharedApplication] setApplicationIconBadgeNumber:count];
